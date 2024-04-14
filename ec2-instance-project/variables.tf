@@ -18,3 +18,8 @@ variable "enable_termination_protection" {
   description = "protect instance from accidental delete"
   type        = bool
 }
+
+variable "env" {
+  description = "Environment"
+  type        = string
+}
